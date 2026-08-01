@@ -1,0 +1,62 @@
+{
+  "name": "ulw-cli",
+  "version": "0.5.2",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic CLI engine for the ULW workflow skills",
+  "license": "MIT",
+  "author": "mentoster",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mentoster/ulw.git"
+  },
+  "homepage": "https://github.com/mentoster/ulw#readme",
+  "bugs": {
+    "url": "https://github.com/mentoster/ulw/issues"
+  },
+  "keywords": [
+    "agent-skills",
+    "coding-agents",
+    "engineering-workflow",
+    "planning",
+    "review",
+    "ulw"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "ulw": "cli/bin/ulw.mjs",
+    "ulw-hermes-approval-gate": "cli/bin/ulw-hermes-approval-gate.mjs"
+  },
+  "scripts": {
+    "setup": "npm link && node cli/bin/ulw.mjs skill install",
+    "install:skills": "node cli/bin/ulw.mjs skill install",
+    "test": "node --test",
+    "check": "node cli/src/check-project.mjs",
+    "check:skills-spec": "node cli/src/skills/official-validator.mjs",
+    "eval:validate": "node cli/bin/ulw.mjs eval validate --json",
+    "eval:fixture": "node cli/bin/ulw.mjs eval run --runner evals/routing/fixture-runner.mjs --output .hermes/evidence/routing-fixture-results.jsonl --json && node cli/bin/ulw.mjs eval score --results .hermes/evidence/routing-fixture-results.jsonl --json",
+    "eval:charts": "node tools/render-evaluation-assets.mjs",
+    "release:package": "node scripts/package-release.mjs",
+    "pack:check": "npm pack --dry-run"
+  },
+  "files": [
+    "cli",
+    "ulw-plan",
+    "ulw-execute",
+    "ulw-review",
+    "ulw-worktree",
+    "ulw-finish",
+    "evals",
+    "assets",
+    "tools/skills-ref-version.txt",
+    "tools/render-evaluation-assets.mjs",
+    "README.md",
+    "EVALUATION.md",
+    "CHANGELOG.md",
+    "RELEASE.md",
+    "LICENSE.md",
+    "THIRD_PARTY_NOTICES.md"
+  ]
+}

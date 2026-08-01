@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ULW logo</title>
+  <desc id="desc">A rounded dark square containing a gated U-shaped workflow path and a completion check.</desc>
+  <defs>
+    <linearGradient id="bg" x1="28" y1="18" x2="226" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172554"/>
+      <stop offset="1" stop-color="#07111E"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="68" y1="64" x2="190" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4"/>
+      <stop offset="0.52" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="54" fill="url(#bg)" filter="url(#shadow)"/>
+  <path d="M67 69v67c0 40 22 62 61 62s61-22 61-62V69" fill="none" stroke="url(#flow)" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="67" cy="69" r="10" fill="#ECFEFF"/>
+  <circle cx="128" cy="198" r="10" fill="#DBEAFE"/>
+  <circle cx="189" cy="69" r="10" fill="#EDE9FE"/>
+  <path d="m103 132 18 18 34-40" fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M39 114c8-41 39-73 79-80" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "name": "ulw-node-service-fixture",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

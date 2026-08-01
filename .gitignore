@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hermes/
+node_modules/
+*.tgz
+.npm/
+dist/
+

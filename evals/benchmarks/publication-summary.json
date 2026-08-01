@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-08-01",
+  "currentGates": [
+    {
+      "id": "routing-fixture",
+      "label": "Routing fixture",
+      "passed": 80,
+      "total": 80,
+      "detail": "micro F1 1.00; macro F1 1.00",
+      "source": "npm run eval:fixture"
+    },
+    {
+      "id": "approval-gate",
+      "label": "Approval gate",
+      "passed": 6,
+      "total": 6,
+      "detail": "explicit-turn, stale-grant, ambiguity, and digest checks",
+      "source": "node --test test/hermes-approval-gate.test.mjs"
+    },
+    {
+      "id": "test-suite",
+      "label": "Local test suite",
+      "passed": 92,
+      "total": 92,
+      "detail": "Node built-in test runner",
+      "source": "npm test"
+    },
+    {
+      "id": "skill-validators",
+      "label": "Bundled skills",
+      "passed": 5,
+      "total": 5,
+      "detail": "pinned Agent Skills validator",
+      "source": "npm run check:skills-spec"
+    }
+  ],
+  "qwenExploratory": {
+    "model": "Qwen/Qwen3.6-27B-FP8",
+    "sampleSizePerCondition": 1,
+    "outcomes": [
+      {
+        "id": "semantic-import",
+        "label": "First semantic import accepted",
+        "before": 0,
+        "after": 1,
+        "intervention": "exact plan template"
+      },
+      {
+        "id": "approval-boundary",
+        "label": "Same-turn self-approval blocked",
+        "before": 0,
+        "after": 1,
+        "intervention": "host-issued one-time approval grant"
+      }
+    ],
+    "limitations": [
+      "One exploratory live session per condition; binary outcomes are not population estimates.",
+      "The routing fixture is deterministic and is not a real-model quality benchmark.",
+      "The approval result is additionally covered by six deterministic regression tests."
+    ]
+  }
+}

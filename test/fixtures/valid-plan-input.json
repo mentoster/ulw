@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "whatYouGet": "A deterministic fixture plan",
+    "whyThisApproach": "It proves lifecycle and rendering behavior",
+    "whatItWillNotDo": ["No network calls"],
+    "effort": "Short",
+    "risk": "Low",
+    "decisionsToCheck": ["Use Node built-ins"]
+  },
+  "components": [
+    { "id": "C1", "outcome": "Fixture component", "status": "active", "evidence": "AGENTS.md:1" }
+  ],
+  "findings": [
+    { "text": "Fixture evidence exists", "evidence": "AGENTS.md:1" }
+  ],
+  "decisions": [
+    { "decision": "Use one command", "rationale": "Minimal", "owner": "default", "evidence": "AGENTS.md:1" }
+  ],
+  "assumptions": [
+    { "assumption": "Node is present", "default": "Node 20+", "rationale": "Project requirement", "reversible": true, "rollback": "Use previous tooling" }
+  ],
+  "scope": {
+    "mustHave": ["One fixture command"],
+    "mustNotHave": ["No network"],
+    "preserve": ["Existing files"],
+    "migrationRollback": ["Git revert"]
+  },
+  "verification": {
+    "testDecision": "tests-after with node:test",
+    "commands": ["npm test"],
+    "evidenceRoot": ".hermes/evidence/fixture/",
+    "misleadingSuccess": ["Assert rendered bytes"]
+  },
+  "approvalBrief": {
+    "confirmedFacts": ["AGENTS.md exists"],
+    "approach": "Use deterministic state",
+    "alternatives": ["Manual Markdown rejected"],
+    "scopeSummary": "Fixture only",
+    "ownerDecisions": [],
+    "testStrategy": "Run node:test"
+  },
+  "todos": [
+    {
+      "id": "T1",
+      "title": "Build fixture",
+      "component": "C1",
+      "files": [{ "action": "modify", "path": "AGENTS.md" }],
+      "whatToDo": "Update the fixture behavior",
+      "mustNotDo": "Do not access the network",
+      "dependsOn": [],
+      "blocks": [],
+      "references": ["AGENTS.md:1"],
+      "acceptance": "node --test exits 0",
+      "qaHappy": "Run the fixture command",
+      "qaFailure": "Pass invalid input and assert nonzero",
+      "evidence": ".hermes/evidence/fixture/t1.txt",
+      "commit": "feat: fixture"
+    }
+  ],
+  "commitStrategy": ["Keep tests with implementation"],
+  "successCriteria": ["Fixture lifecycle completes"],
+  "finalVerification": ["F1 plan compliance", "F2 code quality", "F3 real QA", "F4 scope fidelity"],
+  "readyForApproval": true
+}

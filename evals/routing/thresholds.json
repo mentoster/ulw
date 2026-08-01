@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "overall": {
+    "microF1": 0.9,
+    "macroF1": 0.9
+  },
+  "languages": {
+    "ru": { "f1": 0.88 },
+    "en": { "f1": 0.88 }
+  },
+  "skills": {
+    "minimumPrecision": 0.85,
+    "minimumRecall": 0.85
+  },
+  "maximumSiblingCollisionRate": 0.05,
+  "maximumExpectedNullFalsePositiveRate": 0.1
+}

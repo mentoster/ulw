@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ULW Execute skill icon</title><desc id="desc">A terminal window with a play-shaped command prompt.</desc>
+  <defs><linearGradient id="bg" x1="22" y1="18" x2="232" y2="240"><stop stop-color="#083344"/><stop offset="1" stop-color="#0B1020"/></linearGradient><linearGradient id="accent" x1="79" y1="92" x2="187" y2="170"><stop stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+  <rect x="12" y="12" width="232" height="232" rx="52" fill="url(#bg)"/>
+  <rect x="47" y="58" width="162" height="140" rx="20" fill="#020617" fill-opacity="0.55" stroke="#94A3B8" stroke-opacity="0.3" stroke-width="4"/>
+  <circle cx="70" cy="79" r="6" fill="#FB7185"/><circle cx="90" cy="79" r="6" fill="#FBBF24"/><circle cx="110" cy="79" r="6" fill="#4ADE80"/>
+  <path d="m82 116 34 25-34 25z" fill="url(#accent)"/>
+  <path d="M130 164h43" stroke="#E2E8F0" stroke-width="9" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Qwen exploratory before and after outcomes</title>
+  <desc id="desc">In one exploratory Qwen session per condition, the first semantic import changed from fail to pass after adding an exact plan template, and same-turn self-approval changed from not blocked to blocked after adding a host-issued one-time grant.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111E"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <linearGradient id="after" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <style>.title{font:700 28px Inter,ui-sans-serif,system-ui,sans-serif;fill:#F8FAFC}.sub{font:400 15px Inter,ui-sans-serif,system-ui,sans-serif;fill:#A5B4FC}.card{fill:#111C35;stroke:#334155}.cardTitle{font:650 17px Inter,ui-sans-serif,system-ui,sans-serif;fill:#F8FAFC}.intervention{font:400 13px Inter,ui-sans-serif,system-ui,sans-serif;fill:#93C5FD}.phase{font:600 14px Inter,ui-sans-serif,system-ui,sans-serif;fill:#CBD5E1}.before{fill:#475569}.after{fill:url(#after)}.statusDark,.statusLight{font:800 14px ui-monospace,SFMono-Regular,Consolas,monospace}.statusDark{fill:#F8FAFC}.statusLight{fill:#062A2A}.binary{font:400 12px Inter,ui-sans-serif,system-ui,sans-serif;fill:#94A3B8}.note{font:400 13px Inter,ui-sans-serif,system-ui,sans-serif;fill:#94A3B8}</style>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <text x="64" y="58" class="title">Qwen exploratory outcomes</text>
+  <text x="64" y="86" class="sub">Qwen/Qwen3.6-27B-FP8 · one live planning session per condition</text>
+  <g transform="translate(64 126)">
+    <rect width="504" height="300" rx="22" class="card"/>
+    <text x="28" y="44" class="cardTitle">First semantic import accepted</text>
+    <text x="28" y="78" class="intervention">exact plan template</text>
+    <text x="28" y="132" class="phase">Before</text>
+    <rect x="130" y="104" width="334" height="42" rx="12" class="before"/>
+    <text x="447" y="132" class="statusDark" text-anchor="end">FAIL</text>
+    <text x="28" y="210" class="phase">After</text>
+    <rect x="130" y="182" width="334" height="42" rx="12" class="after"/>
+    <text x="447" y="210" class="statusLight" text-anchor="end">PASS</text>
+    <text x="28" y="270" class="binary">binary observation · n=1 per condition</text>
+  </g>
+  <g transform="translate(612 126)">
+    <rect width="504" height="300" rx="22" class="card"/>
+    <text x="28" y="44" class="cardTitle">Same-turn self-approval blocked</text>
+    <text x="28" y="78" class="intervention">host-issued one-time approval grant</text>
+    <text x="28" y="132" class="phase">Before</text>
+    <rect x="130" y="104" width="334" height="42" rx="12" class="before"/>
+    <text x="447" y="132" class="statusDark" text-anchor="end">FAIL</text>
+    <text x="28" y="210" class="phase">After</text>
+    <rect x="130" y="182" width="334" height="42" rx="12" class="after"/>
+    <text x="447" y="210" class="statusLight" text-anchor="end">PASS</text>
+    <text x="28" y="270" class="binary">binary observation · n=1 per condition</text>
+  </g>
+  <text x="64" y="476" class="note">Small-sample evidence: binary observations, not a population estimate. Deterministic regression coverage is reported separately.</text>
+</svg>

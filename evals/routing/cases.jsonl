@@ -1,0 +1,80 @@
+{"id":"plan-ru-01","language":"ru","prompt":"Составь и сохрани детальный план миграции API, но пока не меняй код.","expectedSkill":"ulw-plan","kind":"positive","collisionGroup":null}
+{"id":"plan-ru-02","language":"ru","prompt":"Исследуй архитектуру авторизации и подготовь decision-complete implementation plan.","expectedSkill":"ulw-plan","kind":"positive","collisionGroup":null}
+{"id":"plan-ru-03","language":"ru","prompt":"Спроектируй безопасный rollout новой схемы данных и остановись перед реализацией.","expectedSkill":"ulw-plan","kind":"positive","collisionGroup":null}
+{"id":"plan-ru-04","language":"ru","prompt":"Разбей сложный рефакторинг на исполнимые todos с acceptance и rollback.","expectedSkill":"ulw-plan","kind":"positive","collisionGroup":null}
+{"id":"plan-en-01","language":"en","prompt":"Design and save a detailed API migration plan, but do not change code yet.","expectedSkill":"ulw-plan","kind":"positive","collisionGroup":null}
+{"id":"plan-en-02","language":"en","prompt":"Investigate the authentication architecture and prepare a decision-complete implementation plan.","expectedSkill":"ulw-plan","kind":"positive","collisionGroup":null}
+{"id":"plan-en-03","language":"en","prompt":"Architect a safe database rollout and stop before implementation.","expectedSkill":"ulw-plan","kind":"positive","collisionGroup":null}
+{"id":"plan-en-04","language":"en","prompt":"Break this complex refactor into executable todos with acceptance and rollback.","expectedSkill":"ulw-plan","kind":"positive","collisionGroup":null}
+{"id":"execute-ru-01","language":"ru","prompt":"Выполни утверждённый план .hermes/plans/auth.md прямо сейчас.","expectedSkill":"ulw-execute","kind":"positive","collisionGroup":null}
+{"id":"execute-ru-02","language":"ru","prompt":"Продолжай реализацию оставшихся todos из финализированного ULW плана.","expectedSkill":"ulw-execute","kind":"positive","collisionGroup":null}
+{"id":"execute-ru-03","language":"ru","prompt":"Реализуй план последовательно и собери evidence для каждого шага.","expectedSkill":"ulw-execute","kind":"positive","collisionGroup":null}
+{"id":"execute-ru-04","language":"ru","prompt":"Начинай писать код по уже одобренному implementation plan.","expectedSkill":"ulw-execute","kind":"positive","collisionGroup":null}
+{"id":"execute-en-01","language":"en","prompt":"Execute the approved .hermes/plans/auth.md plan now.","expectedSkill":"ulw-execute","kind":"positive","collisionGroup":null}
+{"id":"execute-en-02","language":"en","prompt":"Continue the remaining todos from the finalized ULW plan.","expectedSkill":"ulw-execute","kind":"positive","collisionGroup":null}
+{"id":"execute-en-03","language":"en","prompt":"Implement the plan sequentially and collect evidence for every step.","expectedSkill":"ulw-execute","kind":"positive","collisionGroup":null}
+{"id":"execute-en-04","language":"en","prompt":"Start coding from the already approved implementation plan.","expectedSkill":"ulw-execute","kind":"positive","collisionGroup":null}
+{"id":"review-ru-01","language":"ru","prompt":"Проведи свежий review готового diff по требованиям плана.","expectedSkill":"ulw-review","kind":"positive","collisionGroup":null}
+{"id":"review-ru-02","language":"ru","prompt":"Докажи командами, что ULW реализация действительно завершена.","expectedSkill":"ulw-review","kind":"positive","collisionGroup":null}
+{"id":"review-ru-03","language":"ru","prompt":"Проверь качество, безопасность и scope fidelity завершённой работы.","expectedSkill":"ulw-review","kind":"positive","collisionGroup":null}
+{"id":"review-ru-04","language":"ru","prompt":"Сверь сделанные изменения с планом и найди обязательные исправления.","expectedSkill":"ulw-review","kind":"positive","collisionGroup":null}
+{"id":"review-en-01","language":"en","prompt":"Perform a fresh review of the completed diff against the plan.","expectedSkill":"ulw-review","kind":"positive","collisionGroup":null}
+{"id":"review-en-02","language":"en","prompt":"Prove with fresh commands that the ULW implementation is complete.","expectedSkill":"ulw-review","kind":"positive","collisionGroup":null}
+{"id":"review-en-03","language":"en","prompt":"Review quality, security, and scope fidelity of the finished work.","expectedSkill":"ulw-review","kind":"positive","collisionGroup":null}
+{"id":"review-en-04","language":"en","prompt":"Compare the implemented changes with the plan and find required corrections.","expectedSkill":"ulw-review","kind":"positive","collisionGroup":null}
+{"id":"worktree-ru-01","language":"ru","prompt":"Создай отдельный Git worktree для этой feature и проверь baseline.","expectedSkill":"ulw-worktree","kind":"positive","collisionGroup":null}
+{"id":"worktree-ru-02","language":"ru","prompt":"Подготовь изолированный worktree, но пока ничего не реализуй.","expectedSkill":"ulw-worktree","kind":"positive","collisionGroup":null}
+{"id":"worktree-ru-03","language":"ru","prompt":"Проверь, уже ли мы в linked worktree, и безопасно переиспользуй его.","expectedSkill":"ulw-worktree","kind":"positive","collisionGroup":null}
+{"id":"worktree-ru-04","language":"ru","prompt":"Нужна изолированная ветка-worktree перед началом ULW задачи.","expectedSkill":"ulw-worktree","kind":"positive","collisionGroup":null}
+{"id":"worktree-en-01","language":"en","prompt":"Create a separate Git worktree for this feature and verify its baseline.","expectedSkill":"ulw-worktree","kind":"positive","collisionGroup":null}
+{"id":"worktree-en-02","language":"en","prompt":"Prepare an isolated worktree, but do not implement anything yet.","expectedSkill":"ulw-worktree","kind":"positive","collisionGroup":null}
+{"id":"worktree-en-03","language":"en","prompt":"Check whether we are already in a linked worktree and safely reuse it.","expectedSkill":"ulw-worktree","kind":"positive","collisionGroup":null}
+{"id":"worktree-en-04","language":"en","prompt":"Set up an isolated branch worktree before starting this ULW task.","expectedSkill":"ulw-worktree","kind":"positive","collisionGroup":null}
+{"id":"finish-ru-01","language":"ru","prompt":"Работа завершена и проверена; предложи merge, PR, keep или discard.","expectedSkill":"ulw-finish","kind":"positive","collisionGroup":null}
+{"id":"finish-ru-02","language":"ru","prompt":"Заверши lifecycle готовой ветки и worktree после всех тестов.","expectedSkill":"ulw-finish","kind":"positive","collisionGroup":null}
+{"id":"finish-ru-03","language":"ru","prompt":"Реализация готова; помоги безопасно выбрать PR или локальное сохранение.","expectedSkill":"ulw-finish","kind":"positive","collisionGroup":null}
+{"id":"finish-ru-04","language":"ru","prompt":"После review нужно решить, удалить ли worktree или оставить ветку.","expectedSkill":"ulw-finish","kind":"positive","collisionGroup":null}
+{"id":"finish-en-01","language":"en","prompt":"The work is complete and verified; offer merge, PR, keep, or discard.","expectedSkill":"ulw-finish","kind":"positive","collisionGroup":null}
+{"id":"finish-en-02","language":"en","prompt":"Finish the lifecycle of the completed branch and worktree after all tests.","expectedSkill":"ulw-finish","kind":"positive","collisionGroup":null}
+{"id":"finish-en-03","language":"en","prompt":"Implementation is done; help choose a safe PR or local preservation path.","expectedSkill":"ulw-finish","kind":"positive","collisionGroup":null}
+{"id":"finish-en-04","language":"en","prompt":"After review, decide whether to remove the worktree or keep the branch.","expectedSkill":"ulw-finish","kind":"positive","collisionGroup":null}
+{"id":"collision-execute-ru-01","language":"ru","prompt":"План уже финализирован; не перепланируй, а выполни его сейчас.","expectedSkill":"ulw-execute","kind":"sibling-collision","collisionGroup":"plan-vs-execute"}
+{"id":"collision-review-ru-01","language":"ru","prompt":"Код уже написан; ничего не реализуй, только проведи review по плану.","expectedSkill":"ulw-review","kind":"sibling-collision","collisionGroup":"execute-vs-review"}
+{"id":"collision-finish-ru-01","language":"ru","prompt":"Все todos и проверки завершены; не продолжай кодинг, выбери судьбу ветки.","expectedSkill":"ulw-finish","kind":"sibling-collision","collisionGroup":"execute-vs-finish"}
+{"id":"collision-worktree-ru-01","language":"ru","prompt":"Только создай worktree перед задачей, сам план пока не выполняй.","expectedSkill":"ulw-worktree","kind":"sibling-collision","collisionGroup":"worktree-vs-execute"}
+{"id":"collision-review-ru-02","language":"ru","prompt":"Перед cleanup сначала только перепроверь завершённую реализацию.","expectedSkill":"ulw-review","kind":"sibling-collision","collisionGroup":"review-vs-finish"}
+{"id":"collision-execute-en-01","language":"en","prompt":"The plan is finalized; do not re-plan it, execute it now.","expectedSkill":"ulw-execute","kind":"sibling-collision","collisionGroup":"plan-vs-execute"}
+{"id":"collision-review-en-01","language":"en","prompt":"The code is already written; do not implement, only review it against the plan.","expectedSkill":"ulw-review","kind":"sibling-collision","collisionGroup":"execute-vs-review"}
+{"id":"collision-finish-en-01","language":"en","prompt":"All todos and checks are complete; stop coding and decide the branch lifecycle.","expectedSkill":"ulw-finish","kind":"sibling-collision","collisionGroup":"execute-vs-finish"}
+{"id":"collision-worktree-en-01","language":"en","prompt":"Only create the worktree before the task; do not execute the plan yet.","expectedSkill":"ulw-worktree","kind":"sibling-collision","collisionGroup":"worktree-vs-execute"}
+{"id":"collision-review-en-02","language":"en","prompt":"Before cleanup, only re-review the completed implementation.","expectedSkill":"ulw-review","kind":"sibling-collision","collisionGroup":"review-vs-finish"}
+{"id":"neighbor-ru-01","language":"ru","prompt":"Тест падает с timeout, найди root cause и исправь баг без составления плана.","expectedSkill":null,"kind":"neighbor","collisionGroup":"systematic-debugging"}
+{"id":"neighbor-ru-02","language":"ru","prompt":"Оставь inline comments прямо в GitHub pull request.","expectedSkill":null,"kind":"neighbor","collisionGroup":"github-code-review"}
+{"id":"neighbor-ru-03","language":"ru","prompt":"Сделай disposable spike, чтобы проверить новую библиотеку.","expectedSkill":null,"kind":"neighbor","collisionGroup":"spike"}
+{"id":"neighbor-ru-04","language":"ru","prompt":"Синхронизируй текущую feature ветку с main без планирования.","expectedSkill":null,"kind":"neighbor","collisionGroup":"git-branch-sync"}
+{"id":"neighbor-ru-05","language":"ru","prompt":"Напиши unit test для этой маленькой чистой функции через TDD.","expectedSkill":null,"kind":"neighbor","collisionGroup":"test-driven-development"}
+{"id":"neighbor-en-01","language":"en","prompt":"A test times out; find the root cause and fix the bug without planning.","expectedSkill":null,"kind":"neighbor","collisionGroup":"systematic-debugging"}
+{"id":"neighbor-en-02","language":"en","prompt":"Leave inline comments directly on the GitHub pull request.","expectedSkill":null,"kind":"neighbor","collisionGroup":"github-code-review"}
+{"id":"neighbor-en-03","language":"en","prompt":"Build a disposable spike to evaluate this new library.","expectedSkill":null,"kind":"neighbor","collisionGroup":"spike"}
+{"id":"neighbor-en-04","language":"en","prompt":"Synchronize the current feature branch with main without planning.","expectedSkill":null,"kind":"neighbor","collisionGroup":"git-branch-sync"}
+{"id":"neighbor-en-05","language":"en","prompt":"Write a unit test for this small pure function using TDD.","expectedSkill":null,"kind":"neighbor","collisionGroup":"test-driven-development"}
+{"id":"ambiguous-ru-01","language":"ru","prompt":"Посмотри проект и скажи, что здесь можно улучшить.","expectedSkill":null,"kind":"ambiguous","collisionGroup":"insufficient-intent"}
+{"id":"ambiguous-ru-02","language":"ru","prompt":"Нужно что-то сделать с этой веткой.","expectedSkill":null,"kind":"ambiguous","collisionGroup":"insufficient-intent"}
+{"id":"ambiguous-ru-03","language":"ru","prompt":"Проверь это, пожалуйста.","expectedSkill":null,"kind":"ambiguous","collisionGroup":"insufficient-intent"}
+{"id":"ambiguous-ru-04","language":"ru","prompt":"Продолжай работу над проектом.","expectedSkill":null,"kind":"ambiguous","collisionGroup":"insufficient-intent"}
+{"id":"ambiguous-ru-05","language":"ru","prompt":"Разберись с текущим состоянием репозитория.","expectedSkill":null,"kind":"ambiguous","collisionGroup":"insufficient-intent"}
+{"id":"ambiguous-en-01","language":"en","prompt":"Look at the project and tell me what could be improved.","expectedSkill":null,"kind":"ambiguous","collisionGroup":"insufficient-intent"}
+{"id":"ambiguous-en-02","language":"en","prompt":"Something needs to be done with this branch.","expectedSkill":null,"kind":"ambiguous","collisionGroup":"insufficient-intent"}
+{"id":"ambiguous-en-03","language":"en","prompt":"Please check this.","expectedSkill":null,"kind":"ambiguous","collisionGroup":"insufficient-intent"}
+{"id":"ambiguous-en-04","language":"en","prompt":"Continue working on the project.","expectedSkill":null,"kind":"ambiguous","collisionGroup":"insufficient-intent"}
+{"id":"ambiguous-en-05","language":"en","prompt":"Figure out the current repository state.","expectedSkill":null,"kind":"ambiguous","collisionGroup":"insufficient-intent"}
+{"id":"abstain-ru-01","language":"ru","prompt":"Объясни простыми словами, что такое dependency injection.","expectedSkill":null,"kind":"abstain","collisionGroup":null}
+{"id":"abstain-ru-02","language":"ru","prompt":"Переведи этот абзац на английский язык.","expectedSkill":null,"kind":"abstain","collisionGroup":null}
+{"id":"abstain-ru-03","language":"ru","prompt":"Сколько байт в одном мегабайте?","expectedSkill":null,"kind":"abstain","collisionGroup":null}
+{"id":"abstain-ru-04","language":"ru","prompt":"Придумай название для внутреннего инструмента.","expectedSkill":null,"kind":"abstain","collisionGroup":null}
+{"id":"abstain-ru-05","language":"ru","prompt":"Кратко суммируй предоставленный текст.","expectedSkill":null,"kind":"abstain","collisionGroup":null}
+{"id":"abstain-en-01","language":"en","prompt":"Explain dependency injection in simple terms.","expectedSkill":null,"kind":"abstain","collisionGroup":null}
+{"id":"abstain-en-02","language":"en","prompt":"Translate this paragraph into Russian.","expectedSkill":null,"kind":"abstain","collisionGroup":null}
+{"id":"abstain-en-03","language":"en","prompt":"How many bytes are in a megabyte?","expectedSkill":null,"kind":"abstain","collisionGroup":null}
+{"id":"abstain-en-04","language":"en","prompt":"Suggest a name for an internal tool.","expectedSkill":null,"kind":"abstain","collisionGroup":null}
+{"id":"abstain-en-05","language":"en","prompt":"Briefly summarize the text I provided.","expectedSkill":null,"kind":"abstain","collisionGroup":null}

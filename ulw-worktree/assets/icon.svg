@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ULW Worktree skill icon</title><desc id="desc">A safe Git branch splitting into an isolated worktree.</desc>
+  <defs><linearGradient id="bg" x1="20" y1="18" x2="236" y2="240"><stop stop-color="#0F3B47"/><stop offset="1" stop-color="#111827"/></linearGradient><linearGradient id="branch" x1="80" y1="56" x2="181" y2="199"><stop stop-color="#5EEAD4"/><stop offset="1" stop-color="#60A5FA"/></linearGradient></defs>
+  <rect x="12" y="12" width="232" height="232" rx="52" fill="url(#bg)"/>
+  <path d="M82 62v126M82 111c0 0 7 0 23 0 35 0 53-14 53-45v-4M82 148h34c31 0 50 16 50 47" fill="none" stroke="url(#branch)" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="82" cy="62" r="15" fill="#CCFBF1" stroke="#0F766E" stroke-width="5"/>
+  <circle cx="158" cy="62" r="15" fill="#DBEAFE" stroke="#2563EB" stroke-width="5"/>
+  <circle cx="82" cy="194" r="15" fill="#CCFBF1" stroke="#0F766E" stroke-width="5"/>
+  <circle cx="166" cy="194" r="15" fill="#DBEAFE" stroke="#2563EB" stroke-width="5"/>
+  <rect x="133" y="93" width="66" height="45" rx="12" fill="#F8FAFC" fill-opacity="0.1" stroke="#CBD5E1" stroke-opacity="0.4" stroke-width="3"/>
+  <path d="M147 116h38" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+</svg>

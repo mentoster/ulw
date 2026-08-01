@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ULW Review skill icon</title><desc id="desc">A review shield with a check and two independent reviewer marks.</desc>
+  <defs><linearGradient id="bg" x1="20" y1="20" x2="236" y2="236"><stop stop-color="#312E81"/><stop offset="1" stop-color="#0B1020"/></linearGradient><linearGradient id="shield" x1="73" y1="55" x2="181" y2="201"><stop stop-color="#C4B5FD"/><stop offset="1" stop-color="#60A5FA"/></linearGradient></defs>
+  <rect x="12" y="12" width="232" height="232" rx="52" fill="url(#bg)"/>
+  <path d="M128 48 185 70v43c0 43-22 75-57 96-35-21-57-53-57-96V70z" fill="url(#shield)" fill-opacity="0.24" stroke="url(#shield)" stroke-width="6"/>
+  <path d="m96 125 21 21 43-49" fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="77" cy="185" r="13" fill="#22D3EE"/><circle cx="179" cy="185" r="13" fill="#A78BFA"/>
+  <path d="m70 185 5 5 9-11m88 6 5 5 9-11" fill="none" stroke="#07111E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

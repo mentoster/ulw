@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ULW Plan skill icon</title><desc id="desc">A blueprint document with connected planning nodes.</desc>
+  <defs><linearGradient id="bg" x1="24" y1="20" x2="230" y2="238"><stop stop-color="#172554"/><stop offset="1" stop-color="#081426"/></linearGradient><linearGradient id="accent" x1="67" y1="62" x2="189" y2="192"><stop stop-color="#67E8F9"/><stop offset="1" stop-color="#818CF8"/></linearGradient></defs>
+  <rect x="12" y="12" width="232" height="232" rx="52" fill="url(#bg)"/>
+  <path d="M72 53h83l29 29v121H72z" fill="#F8FAFC" fill-opacity="0.08" stroke="#CBD5E1" stroke-opacity="0.35" stroke-width="4"/>
+  <path d="M155 53v31h29" fill="none" stroke="#CBD5E1" stroke-opacity="0.45" stroke-width="4"/>
+  <path d="M96 112h64M96 139h40" stroke="#93C5FD" stroke-width="8" stroke-linecap="round"/>
+  <path d="M95 176h33l25-19 18 19" fill="none" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="95" cy="176" r="8" fill="#67E8F9"/><circle cx="128" cy="176" r="8" fill="#60A5FA"/><circle cx="153" cy="157" r="8" fill="#818CF8"/><circle cx="171" cy="176" r="8" fill="#A78BFA"/>
+</svg>

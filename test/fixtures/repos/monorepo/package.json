@@ -1,0 +1,5 @@
+{
+  "name": "ulw-monorepo-fixture",
+  "private": true,
+  "workspaces": ["packages/*"]
+}
